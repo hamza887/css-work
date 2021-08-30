@@ -1,98 +1,31 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url('https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60');
-     background-size: cover;
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
-    overflow: hidden;
 
-}
-.wrapper{
-    margin: 0px auto;
-    width: 100%;
-}
-.main{
-    width: 100%;
-    float: left;
-    height: 100vh;
-    
-}
-.nav{
-    width: 100%;
-    float: left;
-    background-color: red;
-}
-ul{
-    list-style-type: none;
-    overflow: hidden;
-    display: block;
-    float: left;
-}
-li{
-    float: left;
-    border-right: 1px solid green;
-}
-li:last-child{
-  border-right: none;
-}
-a{
-    display: block;
-    columns: red;
-    text-align: center;
-    padding: 24px 56px;
-    text-decoration: none;
-    font-size: 24px;
-    transition: all .5s;
-}
-a:hover{
-   background-color: honeydew;
-   color: black;
-}
-.search{
-    float: right;
 
-}
-.search input{
-    width: 300px;
-    height: 30px;
-    margin: 20px 20px 0px 0px;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, .2);
-    opacity: .5;
-    padding-left: 20px;
-    color: #fff;
-    font-size: 18px;
-
-}
-article{
-    width: 13.5%;
-    margin-left:10%;
-    background-color: rgba(255,255,0,.25);
-     color: #000;
-     display: block;
-     float: left;
-     text-align: center;
-     padding: 50px 50px 0px 50px;
-     margin-top: 300px;
-     height: 800px;
-     font-size: 18px;
-     border-radius: 40px 40px 0px 0 px;
-    transition: all .5;
+ 
+ .img{
+  background-image: url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  backdrop-filter: blur(10px);
 
 }
 
-article p, article h1{
-    margin-top: 20px;
+.hello{
+  font-size: 43px;
+   position: relative;
+   left: 35%;
+   top: 40%;
+   /* backdrop-filter: blur(10px);
+   background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px); 
+  height: 100%;
+	width: 100%; */
+
 }
-article:hover{
-    background-color: #fff;
-    color: #000;
-    margin-top: 200px;
-}
-h1:hover{
-    text-decoration: underline;
-}
+
+
+
